@@ -1,7 +1,8 @@
-require 'test_helper'
+require 'test/unit'
 
 class RailsExtTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  # Replace this with your real tests.
+  def test_this_plugin
+    flunk
   end
 end

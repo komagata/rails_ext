@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rails_ext"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Add some utility method to rails.}
+    gem.description = %Q{Add some utility method to rails.}
     gem.email = "komagata@gmail.com"
     gem.homepage = "http://github.com/komagata/rails_ext"
     gem.authors = ["Masaki Komagata"]
     gem.add_development_dependency "thoughtbot-shoulda"
+    gem.files = FileList["*.rb", "lib/*.rb", "tasks/*.rake", "test/*.rb", "*.gemspec"].to_a
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
