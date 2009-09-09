@@ -1,9 +1,13 @@
 = rails_ext
 
-Description goes here.
+Add some utility method to rails.
+
+== Installation
+
+  $ ruby script/plugin install git://github.com/komagata/rails_ext.git
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
